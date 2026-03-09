@@ -1,4 +1,10 @@
 {
+  "permissions": {
+    "deny": [
+      "Read(*.env)",
+      "Read(*.env.*)"
+    ]
+  },
   "env": {
     "ANTHROPIC_AUTH_TOKEN": "",
     "ANTHROPIC_BASE_URL": "https://coding-intl.dashscope.aliyuncs.com/apps/anthropic",
