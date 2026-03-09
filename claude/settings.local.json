@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "curl -X POST -H 'Content-type: application/json' --data '{\\\"text\\\":\\\"Hello\\\"}' https://hooks.slack.com/services/XXXXXXXXX"
+          }
+        ]
+      }
+    ]
+  }
+}
